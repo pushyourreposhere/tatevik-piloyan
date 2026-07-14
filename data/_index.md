@@ -10,7 +10,7 @@ with a reason and point to the id that replaced it.
 
 | ID | Name | File | Class | Source(s) | Status | Notes |
 |---|---|---|---|---|---|---|
-| _(none yet)_ | | | | | | Run `intake` to add the first dataset. |
+| DS-001 | Peer central-bank policy rates (US, UK) | data/peer-rates.csv | public | SRC-002, SRC-003 | raw | Already-published policy rates fetched from issuing central banks' official pages (federalreserve.gov, bankofengland.co.uk); safe to combine/chart/publish per safe-zone.md. Peer set limited to US and UK per this task. source-qa: 2 rounds run, verdict **PASS** (2026-07-14). |
 
 <!--
 Row template:
