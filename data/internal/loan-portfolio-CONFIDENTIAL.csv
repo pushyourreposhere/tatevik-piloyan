@@ -1,0 +1,6 @@
+account_id,customer_name,email,loan_balance_amd,loan_rate_pct
+ACC-100001,Example Customer A,customer.a@example.test,4820000,13.5
+ACC-100002,Example Customer B,customer.b@example.test,1290000,15.0
+ACC-100003,Example Customer C,customer.c@example.test,7650000,12.25
+ACC-100004,Example Customer D,customer.d@example.test,340000,17.9
+ACC-100005,Example Customer E,customer.e@example.test,2110000,14.0

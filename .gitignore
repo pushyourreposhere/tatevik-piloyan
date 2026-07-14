@@ -1,0 +1,19 @@
+# Ephemeral compute area — throwaway analysis/verification scripts live here
+# only while a skill runs, and are deleted immediately after. Nothing here is
+# ever a persisted artifact. Keep the folder, ignore its contents.
+scratch/*
+!scratch/.gitkeep
+
+# Auto-created Python virtual environment (only made when an .xlsx or a heavier
+# analysis needs pandas/openpyxl). Disposable — never a source of truth.
+.venv/
+
+# Anonymization map — the PRT-NNN → real-value lookup. Local only, never shared.
+analysis/anonymization-map.md
+
+# OS noise
+.DS_Store
+
+# Python bytecode, in case a stray interpreter run leaves it behind
+__pycache__/
+*.pyc

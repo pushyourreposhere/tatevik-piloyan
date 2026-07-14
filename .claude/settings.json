@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Write(./data/**)",
+      "Edit(./data/**)",
+      "Write(./analysis/**)",
+      "Edit(./analysis/**)",
+      "Write(./presentations/**)",
+      "Edit(./presentations/**)",
+      "Write(./sources/**)",
+      "Edit(./sources/**)",
+      "Write(./context/**)",
+      "Edit(./context/**)",
+      "Write(./scratch/**)",
+      "Edit(./scratch/**)",
+      "Glob",
+      "Grep",
+      "Task",
+      "Agent",
+      "Skill",
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(rm:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(open:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "WebFetch|WebSearch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'SAFE-ZONE REMINDER: a web tool is about to run. Confirm only PUBLIC data (or a public query) is leaving the Safe Zone. Restricted/internal data must never reach WebSearch/WebFetch. See .claude/rules/safe-zone.md.' 1>&2"
+          }
+        ]
+      }
+    ]
+  }
+}
