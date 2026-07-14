@@ -17,10 +17,11 @@ anchor. Come back here to find a specific piece.
 | `context/analysis-brief.md` | **Anchor**: the decision, the flagship task, vocabulary, Safe-Zone posture | First, every session |
 | `.claude/rules/` | The five standards (read via this file, the folder notes, and each agent/skill): Safe Zone, evidence, ephemeral compute, report style, QA | Before producing anything |
 | `.claude/skills/` | The procedures (create + QA), one folder each | To actually do the work |
-| `.claude/agents/` | The three domain specialists | If delegating a sub-task |
+| `.claude/agents/` | The four domain specialists | If delegating a sub-task |
 | `data/` | Raw datasets + `_index.md` (DS-NNN) | Importing or reading source data |
 | `analysis/` | Cleaning logs, combined data, findings + `_index.md` (FND-NNN) + finding template | Analyzing or reading results |
 | `presentations/` | Charts + HTML presentations + `_index.md` (CHT/RPT-NNN) + HTML template | Building or reading outputs |
+| `web-research/` | Web sources + research briefs: `sources/_index.md` (WRS-NNN) + `findings/_index.md` (WRB-NNN) + brief template | Researching a question on the open web |
 | `sources/` | `source-registry.md` (SRC-NNN) + `evidence-policy.md` | Any time a figure needs a citation |
 | `scratch/` | The **only** place throwaway `.py` scripts may live — emptied after every run | Never persist anything here |
 
@@ -65,6 +66,7 @@ ID with its human name.
 | `data-steward` | intake, Safe-Zone classification, web-rate fetch, cleaning | `source-qa`, `clean-qa` |
 | `analyst` | combine + compute metrics/trends → findings | `analysis-qa` |
 | `presenter` | KPIs, charts, executive summary, HTML presentation | `presentation-qa` |
+| `web-researcher` | crawl the open web → sourced research brief (WRS/WRB) | `research-qa` |
 
 Every agent's lifecycle is **preflight → create → qa → fix → qa → return**. An
 artifact never leaves an agent until its QA skill returns PASS; an unfixable hard
