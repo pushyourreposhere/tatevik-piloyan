@@ -1,11 +1,11 @@
 # Rule: Report Style
 
-**Applies to** prose in `analysis/` findings and `presentations/`. It is referenced
-by the analyze/presentation skills and the analyst/presenter agents — read it before
-turning numbers into words.
+**Applies to** prose in `presentations/` and `.pptx` files only. It is referenced
+by the presentation skills and the presenter agent — read it before turning numbers
+into words.
 
-How numbers become words a decision-maker can act on. Applies to findings and,
-especially, presentations.
+How numbers become words a decision-maker can act on. Applies to presentations
+(HTML and `.pptx`).
 
 ## Core rule
 
@@ -16,7 +16,7 @@ persuasion.
 
 ## Executive-summary structure
 
-Every presentation's summary (and a finding's "What it means") follows this order:
+Every presentation's summary follows this order:
 
 1. **Situation** — what was measured, over what window, for whom.
 2. **Key findings** — the 1–3 numbers that matter, stated plainly.
