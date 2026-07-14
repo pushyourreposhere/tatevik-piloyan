@@ -1,3 +1,9 @@
+---
+paths:
+  - "presentations/**/*"
+  - "**/*.pptx"
+---
+
 # Rule: Report Style
 
 **Applies to** prose in `presentations/` and `.pptx` files only. It is referenced
