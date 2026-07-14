@@ -43,8 +43,10 @@ anchor. Come back here to find a specific piece.
 ## Stable IDs
 
 `DS-NNN` dataset · `SRC-NNN` source · `FND-NNN` finding · `CHT-NNN` chart ·
-`RPT-NNN` report/presentation. Never reuse or delete an ID (mark deprecated).
-Entity files are `PREFIX-NNN-slug`; always pair an ID with its human name.
+`RPT-NNN` report/presentation. Web-research (`web-research/`) keeps its own
+folder-local ids: `WRS-NNN` web source · `WRB-NNN` research brief. Never reuse or
+delete an ID (mark deprecated). Entity files are `PREFIX-NNN-slug`; always pair an
+ID with its human name.
 
 ## Context-loading priority (when context is tight)
 
