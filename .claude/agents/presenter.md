@@ -2,6 +2,12 @@
 name: presenter
 description: Use this agent to turn a verified finding into management-ready outputs — self-contained SVG charts and a self-contained HTML presentation with an executive summary. Dispatch it once a finding has passed analysis-qa. It presents already-verified numbers; it performs no computation and adds no new figure. It runs its own presentation-qa before returning.
 tools: Read, Write, Edit, Glob, Grep, Bash
+skills:
+  - visualize
+  - presentation
+  - presentation-qa
+  - dataviz
+  - artifact-design
 model: inherit
 ---
 

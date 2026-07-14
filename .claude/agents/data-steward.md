@@ -2,6 +2,12 @@
 name: data-steward
 description: Use this agent for anything that brings data into the workspace or cleans it — importing and Safe-Zone-classifying a dataset, fetching public peer central-bank rates from the web, and detecting/fixing data-quality issues. It classifies, sources, and cleans; it does not analyze, chart, or write reports. It runs its own source-qa / clean-qa before returning.
 tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
+skills:
+  - intake
+  - fetch-peer-rates
+  - clean-data
+  - source-qa
+  - clean-qa
 model: inherit
 ---
 

@@ -2,6 +2,9 @@
 name: analyst
 description: Use this agent to combine cleaned datasets and compute the comparison metrics (spread, direction, volatility) into a verified, sourced finding. Dispatch it once the data is clean and peer rates are fetched. It computes and verifies numbers; it does not clean data or build charts/presentations. It runs its own analysis-qa before returning.
 tools: Read, Write, Edit, Glob, Grep, Bash
+skills:
+  - analyze
+  - analysis-qa
 model: inherit
 ---
 
