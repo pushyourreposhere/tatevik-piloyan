@@ -15,11 +15,12 @@ before returning it (web-researcher), or standalone.
 ## Round 1 — Compliance
 
 1. **(hard)** The brief has a `WRB-NNN` row in `web-research/findings/_index.md`
-   and follows the expected shape: guiding question, answer-first finding, "what
-   the sources say", gaps, and a confidence rating.
+   and follows `findings/TEMPLATE.brief.md`: guiding question, answer-first
+   finding, "what the sources say", sources-used table, gaps, and a confidence
+   rating.
 2. **(hard)** Every source the brief cites has a `WRS-NNN` row in
-   `web-research/sources/_index.md` with a **resolvable URL** and a **date
-   accessed**.
+   `web-research/sources/_index.md` that follows `sources/TEMPLATE.source.md` —
+   every field present, with a **resolvable URL** and a **date accessed**.
 3. **(hard)** Every claim / figure in the brief cites a `WRS-NNN` — no assertion
    that the reader cannot trace to a source.
 4. **(soft)** Each source carries a **tier** (P0–P4). Load-bearing claims rest on

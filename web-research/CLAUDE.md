@@ -28,6 +28,10 @@ Two things are tracked, each with its own stable id and its own index:
 **Subfolders & primary files**
 - `raw/` — raw fetched pages / search dumps, as captured (the audit trail behind a
   source; not edited).
-- `sources/_index.md` — the source registry (`WRS-NNN` → URL).
+- `sources/_index.md` — the source registry (`WRS-NNN` → URL);
+  `sources/TEMPLATE.source.md` — the standard shape of one source entry.
 - `findings/_index.md` — the brief registry (`WRB-NNN`); the briefs themselves are
-  `findings/WRB-NNN-*.md`.
+  `findings/WRB-NNN-*.md`, shaped by `findings/TEMPLATE.brief.md`.
+
+Both templates ARE the quality standard `research-qa` checks against: a brief
+follows `TEMPLATE.brief.md`, and every source row follows `TEMPLATE.source.md`.

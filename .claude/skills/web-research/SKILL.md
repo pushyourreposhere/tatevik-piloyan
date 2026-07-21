@@ -14,9 +14,10 @@ intent*. The brief is the deliverable; the sources are its audit trail.
 
 ## Preflight
 
-1. Read the anchor (`context/analysis-brief.md`), `web-research/CLAUDE.md`, and
-   both registries — `web-research/sources/_index.md` (next free `WRS` id) and
-   `web-research/findings/_index.md` (next free `WRB` id).
+1. Read the anchor (`context/analysis-brief.md`), `web-research/CLAUDE.md`, both
+   registries — `web-research/sources/_index.md` (next free `WRS` id) and
+   `web-research/findings/_index.md` (next free `WRB` id) — and both templates,
+   `findings/TEMPLATE.brief.md` and `sources/TEMPLATE.source.md`.
 2. **Pin the intent.** Restate the user's question in one sentence as the brief's
    *guiding question*, and list the sub-questions the brief must answer. Every
    later step serves this — do not drift into adjacent topics.
@@ -32,11 +33,12 @@ intent*. The brief is the deliverable; the sources are its audit trail.
    `sources/evidence-policy.md`); gather enough to answer each sub-question **and**
    to corroborate the load-bearing claims from a second angle.
 2. **Capture each source once.** For every source a claim will rest on, add a
-   `WRS-NNN` row to `web-research/sources/_index.md`: date accessed, title /
-   publisher, resolvable URL, tier (P0–P4), and (optionally) a saved snapshot path
-   under `web-research/raw/`. One source, one id — cite it by id, never by a bare
-   URL (`.claude/rules/evidence-and-figures.md`).
-3. **Write the brief.** Create `web-research/findings/WRB-NNN-<slug>.md`:
+   `WRS-NNN` row to `web-research/sources/_index.md` following
+   `sources/TEMPLATE.source.md` (date accessed, title / publisher, resolvable URL,
+   tier P0–P4, raw-capture note, and the `WRB` that uses it). One source, one id —
+   cite it by id, never by a bare URL (`.claude/rules/evidence-and-figures.md`).
+3. **Write the brief.** Create `web-research/findings/WRB-NNN-<slug>.md` from
+   `findings/TEMPLATE.brief.md`, filling every section:
    - **Guiding question** (the pinned intent) and the sub-questions.
    - **Answer first** — the finding, stated plainly in the first few sentences.
    - **What the sources say** — the results, each claim citing its `WRS-NNN`;
