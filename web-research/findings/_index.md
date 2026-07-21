@@ -11,7 +11,7 @@ with a reason and point to the id that replaced it.
 
 | ID | Question / topic | Sources (WRS) | Status | File |
 |---|---|---|---|---|
-| _(none yet)_ | | | | Add the first brief here once written. |
+| WRB-001 | Fed & BoE monetary-policy stance and near-term rate outlook (qualitative context for the CBA peer comparison) | WRS-001, WRS-002, WRS-003, WRS-004, WRS-005, WRS-006, WRS-007, WRS-008, WRS-009, WRS-010 | final | findings/WRB-001-fed-boe-stance-outlook.md |
 
 <!--
 Row template:
