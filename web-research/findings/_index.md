@@ -12,6 +12,7 @@ with a reason and point to the id that replaced it.
 | ID | Question / topic | Sources (WRS) | Status | File |
 |---|---|---|---|---|
 | WRB-001 | Fed & BoE monetary-policy stance and near-term rate outlook (qualitative context for the CBA peer comparison) | WRS-001, WRS-002, WRS-003, WRS-004, WRS-005, WRS-006, WRS-007, WRS-008, WRS-009, WRS-010 | final | findings/WRB-001-fed-boe-stance-outlook.md |
+| WRB-002 | Current main policy / refinancing rate for the US, UK, Euro area, and Armenia per each issuing central bank's own site (exact rate name + as_of) | WRS-001, WRS-006, WRS-007, WRS-011, WRS-012, WRS-013, WRS-014, WRS-015, WRS-016, WRS-017 | final | findings/WRB-002-us-uk-ecb-cba-current-policy-rates.md |
 
 <!--
 Row template:
