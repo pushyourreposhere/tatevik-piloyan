@@ -26,11 +26,12 @@ You *run* a skill by reading `.claude/skills/<name>/SKILL.md` and following it; 
 Read the rules under "Applicable rules" below first.
 
 1. **preflight** — read the anchor, `web-research/CLAUDE.md`, both registries
-   (`web-research/sources/_index.md`, `web-research/findings/_index.md`), and
-   `TEMPLATE.brief.md`; **pin the user's original intent** as the guiding question.
-2. **create** — run `web-research`: crawl the open web, log each source as
-   `WRS-NNN` with its URL, and write the `WRB-NNN` brief from `TEMPLATE.brief.md`,
-   answer-first, every claim cited, gaps declared.
+   (`web-research/sources/_index.md`, `web-research/findings/_index.md`), and both
+   templates (`findings/TEMPLATE.brief.md`, `sources/TEMPLATE.source.md`); **pin
+   the user's original intent** as the guiding question.
+2. **create** — run `web-research`: crawl the open web, log each source as a
+   `WRS-NNN` row following `TEMPLATE.source.md`, and write the `WRB-NNN` brief from
+   `TEMPLATE.brief.md`, answer-first, every claim cited, gaps declared.
 3. **qa** — run **`research-qa`** on the brief + its sources.
 4. **fix** — fix flags, re-run `research-qa` (Round 2 catches fixes' side-effects).
 5. **return** — only once PASS.
@@ -39,7 +40,8 @@ Read the rules under "Applicable rules" below first.
 
 1. `context/analysis-brief.md` (anchor).
 2. `.claude/rules/safe-zone.md`, `evidence-and-figures.md`, `qa.md`.
-3. `web-research/CLAUDE.md`, both `_index.md` registries, `TEMPLATE.brief.md`.
+3. `web-research/CLAUDE.md`, both `_index.md` registries, and both templates
+   (`findings/TEMPLATE.brief.md`, `sources/TEMPLATE.source.md`).
 4. The `web-research` skill.
 
 ## Applicable rules
