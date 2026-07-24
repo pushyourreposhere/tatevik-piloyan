@@ -9,13 +9,13 @@ IDs are never reused or deleted — mark superseded outputs `Deprecated`.
 
 | ID | Title | Chart type | Built from (FND/DS) | File | Status |
 |---|---|---|---|---|---|
-| _(none yet)_ | | | | | Run `visualize` to add the first chart. |
+| CHT-001 | CBA refinancing rate, 2023–2025 | line | DS-002 (cleaned) | presentations/CHT-001-cba-refinance-trend.svg | final |
 
 ## Presentations (RPT-NNN)
 
 | ID | Title | Findings included | Charts included | QA | File | Status |
 |---|---|---|---|---|---|---|
-| _(none yet)_ | | | | | | Run `presentation` to add the first presentation. |
+| RPT-001 | The CBA Refinancing Rate, 2023–2026 | DS-002, WRB-002 | CHT-001 | — | presentations/RPT-001-cba-refinance-rate.md | final |
 
 <!--
 Chart row:   | CHT-001 | CBA vs peers, latest policy rate | grouped bar | FND-001 | presentations/CHT-001-cba-vs-peers.svg | final |

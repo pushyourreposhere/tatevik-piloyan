@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Helvetica,Arial,sans-serif">
+<rect x="0" y="0" width="900" height="470" fill="#ffffff"/>
+<line x1="62" y1="414.0" x2="872" y2="414.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="418.0" font-size="13" fill="#667085" text-anchor="end">6%</text>
+<line x1="62" y1="340.0" x2="872" y2="340.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="344.0" font-size="13" fill="#667085" text-anchor="end">7%</text>
+<line x1="62" y1="266.0" x2="872" y2="266.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="270.0" font-size="13" fill="#667085" text-anchor="end">8%</text>
+<line x1="62" y1="192.0" x2="872" y2="192.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="196.0" font-size="13" fill="#667085" text-anchor="end">9%</text>
+<line x1="62" y1="118.0" x2="872" y2="118.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="122.0" font-size="13" fill="#667085" text-anchor="end">10%</text>
+<line x1="62" y1="44.0" x2="872" y2="44.0" stroke="#e4e7ec" stroke-width="1"/>
+<text x="52" y="48.0" font-size="13" fill="#667085" text-anchor="end">11%</text>
+<text x="62.0" y="438.0" font-size="13" fill="#667085" text-anchor="middle">Jan 2023</text>
+<line x1="62.0" y1="414.0" x2="62.0" y2="420.0" stroke="#98a2b3"/>
+<text x="397.2" y="438.0" font-size="13" fill="#667085" text-anchor="middle">Jan 2024</text>
+<line x1="397.2" y1="414.0" x2="397.2" y2="420.0" stroke="#98a2b3"/>
+<text x="732.3" y="438.0" font-size="13" fill="#667085" text-anchor="middle">Jan 2025</text>
+<line x1="732.3" y1="414.0" x2="732.3" y2="420.0" stroke="#98a2b3"/>
+<text x="872.0" y="438.0" font-size="13" fill="#667085" text-anchor="middle">Jun 2025</text>
+<line x1="872.0" y1="414.0" x2="872.0" y2="420.0" stroke="#98a2b3"/>
+<line x1="62" y1="44" x2="62" y2="414" stroke="#98a2b3"/>
+<line x1="62" y1="414" x2="872" y2="414" stroke="#98a2b3"/>
+<polyline points="62.0,62.5 89.9,62.5 117.9,62.5 145.8,81.0 173.7,81.0 201.7,99.5 229.6,118.0" fill="none" stroke="#1570ef" stroke-width="2.5"/>
+<polyline points="285.4,155.0 313.4,155.0 341.3,173.5 369.2,173.5 397.2,173.5 425.1,192.0 453.0,210.5 481.0,229.0" fill="none" stroke="#1570ef" stroke-width="2.5"/>
+<polyline points="536.8,266.0 564.8,266.0 592.7,284.5 620.6,303.0 648.6,321.5 676.5,321.5 704.4,340.0 732.3,340.0 760.3,358.5 788.2,358.5 816.1,377.0 844.1,377.0 872.0,377.0" fill="none" stroke="#1570ef" stroke-width="2.5"/>
+<circle cx="62.0" cy="62.5" r="2.6" fill="#1570ef"/>
+<circle cx="89.9" cy="62.5" r="2.6" fill="#1570ef"/>
+<circle cx="117.9" cy="62.5" r="2.6" fill="#1570ef"/>
+<circle cx="145.8" cy="81.0" r="2.6" fill="#1570ef"/>
+<circle cx="173.7" cy="81.0" r="2.6" fill="#1570ef"/>
+<circle cx="201.7" cy="99.5" r="2.6" fill="#1570ef"/>
+<circle cx="229.6" cy="118.0" r="2.6" fill="#1570ef"/>
+<circle cx="285.4" cy="155.0" r="2.6" fill="#1570ef"/>
+<circle cx="313.4" cy="155.0" r="2.6" fill="#1570ef"/>
+<circle cx="341.3" cy="173.5" r="2.6" fill="#1570ef"/>
+<circle cx="369.2" cy="173.5" r="2.6" fill="#1570ef"/>
+<circle cx="397.2" cy="173.5" r="2.6" fill="#1570ef"/>
+<circle cx="425.1" cy="192.0" r="2.6" fill="#1570ef"/>
+<circle cx="453.0" cy="210.5" r="2.6" fill="#1570ef"/>
+<circle cx="481.0" cy="229.0" r="2.6" fill="#1570ef"/>
+<circle cx="536.8" cy="266.0" r="2.6" fill="#1570ef"/>
+<circle cx="564.8" cy="266.0" r="2.6" fill="#1570ef"/>
+<circle cx="592.7" cy="284.5" r="2.6" fill="#1570ef"/>
+<circle cx="620.6" cy="303.0" r="2.6" fill="#1570ef"/>
+<circle cx="648.6" cy="321.5" r="2.6" fill="#1570ef"/>
+<circle cx="676.5" cy="321.5" r="2.6" fill="#1570ef"/>
+<circle cx="704.4" cy="340.0" r="2.6" fill="#1570ef"/>
+<circle cx="732.3" cy="340.0" r="2.6" fill="#1570ef"/>
+<circle cx="760.3" cy="358.5" r="2.6" fill="#1570ef"/>
+<circle cx="788.2" cy="358.5" r="2.6" fill="#1570ef"/>
+<circle cx="816.1" cy="377.0" r="2.6" fill="#1570ef"/>
+<circle cx="844.1" cy="377.0" r="2.6" fill="#1570ef"/>
+<circle cx="872.0" cy="377.0" r="2.6" fill="#1570ef"/>
+<text x="62.0" y="50.5" font-size="13" font-weight="bold" fill="#101828" text-anchor="start">10.75%</text>
+<text x="872.0" y="365.0" font-size="13" font-weight="bold" fill="#101828" text-anchor="end">6.50%</text>
+</svg>
