@@ -13,6 +13,7 @@ with a reason and point to the id that replaced it.
 |---|---|---|---|---|
 | WRB-001 | Fed & BoE monetary-policy stance and near-term rate outlook (qualitative context for the CBA peer comparison) | WRS-001, WRS-002, WRS-003, WRS-004, WRS-005, WRS-006, WRS-007, WRS-008, WRS-009, WRS-010 | final | findings/WRB-001-fed-boe-stance-outlook.md |
 | WRB-002 | Current main policy / refinancing rate for the US, UK, Euro area, and Armenia per each issuing central bank's own site (exact rate name + as_of) | WRS-001, WRS-006, WRS-007, WRS-011, WRS-012, WRS-013, WRS-014, WRS-015, WRS-016, WRS-017 | final | findings/WRB-002-us-uk-ecb-cba-current-policy-rates.md |
+| WRB-003 | Regulatory obligations for incident reporting by (re)insurance undertakings — what/by whom/to whom/when/format/thresholds across FSB FIRE, EU DORA, IAIS, EIOPA, NAIC, UK PRA/FCA/BoE, and Armenia | WRS-018, WRS-019, WRS-020, WRS-021, WRS-022, WRS-023, WRS-024, WRS-025, WRS-026, WRS-027, WRS-028, WRS-029, WRS-030, WRS-031, WRS-032, WRS-033, WRS-034, WRS-035 | final | findings/WRB-003-insurer-incident-reporting-obligations.md |
 
 <!--
 Row template:
