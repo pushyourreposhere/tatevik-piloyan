@@ -1,0 +1,3 @@
+country,central_bank,policy_rate,as_of_date,source_id
+# fetch-peer-rates fills this: copy to peer-rates.csv, one row per peer, each policy_rate cited to a SRC-NNN (delete this comment line).
+# example (delete): United States,US Federal Reserve (funds target upper bound),4.50,2026-06-18,SRC-002
